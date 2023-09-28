@@ -11,6 +11,8 @@ export class CompAtributosComponent implements OnInit {
   corDaFonte: string = "purple"
   item:string = ""
   lista:string[] = []
+  isEnableBlock:boolean = true
+
   constructor() { }
   adicionarLista(){
     this.lista.push(this.item)
